@@ -4,8 +4,10 @@ import Wrapper from '../assets/wrappers/Testing';
 import { Logo } from '../components';
 import {Link} from 'react-router-dom';
 import { useAppContext } from '../context/appContext';
+import React from 'react';
+import { Navigate } from 'react-router-dom';
 
-const landing = () => {
+const Landing = () => {
 
     const {user} = useAppContext();
   return (
@@ -38,4 +40,4 @@ const landing = () => {
 
 
 
-export default landing
+export default Landing
