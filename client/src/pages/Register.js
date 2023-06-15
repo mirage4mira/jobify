@@ -89,7 +89,7 @@ const Register = () => {
           disabled={isLoading}
           onClick={() => {
             setupUser({
-              currentUser: {email: 'testUser@test.com', password : 'secret'},
+              currentUser: {email: 'testUser@gmail.com', password : '123456'},
               endpoint: 'login',
               alertText : 'Login Successful! Redirecting...',
             });
